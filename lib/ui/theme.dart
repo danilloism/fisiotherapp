@@ -11,16 +11,21 @@ final themeData = ThemeData(
           GoogleFonts.aBeeZee(fontWeight: FontWeight.normal, fontSize: 25),
     ),
   ),
-  appBarTheme: const AppBarTheme(
+  appBarTheme: AppBarTheme(
     backgroundColor: Colors.transparent,
     elevation: 0,
-    iconTheme: IconThemeData(color: Colors.deepPurple),
+    iconTheme: const IconThemeData(color: Colors.deepPurple),
+    titleTextStyle: GoogleFonts.actor(color: Colors.black, fontSize: 25),
+    centerTitle: true,
   ),
   textTheme: TextTheme(
     headlineLarge: GoogleFonts.actor(color: Colors.black),
     headlineMedium: GoogleFonts.actor(color: Colors.black87),
     headlineSmall: GoogleFonts.aBeeZee(color: Colors.black.withOpacity(0.6)),
     titleLarge: GoogleFonts.aBeeZee(
-        color: Colors.deepPurple, fontWeight: FontWeight.bold),
+      color: Colors.deepPurple,
+      fontWeight: FontWeight.bold,
+    ),
+    bodyMedium: GoogleFonts.actor(fontSize: 16),
   ),
 );

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../generated/assets.dart';
 import '../widgets/button.dart';
 import '../widgets/gap.dart';
+import '../widgets/nav_bar.dart';
 import 'exercise_page.dart';
 
 class InitialPage extends StatelessWidget {
@@ -11,6 +12,7 @@ class InitialPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: const NavBar(),
       body: SizedBox.expand(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

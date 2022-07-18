@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+const purple = Color(0xff5b3fff);
+const lighterPurple = Color(0xff9e2d8c);
+
 final themeData = ThemeData(
-  colorSchemeSeed: Colors.deepPurple,
+  colorSchemeSeed: lighterPurple,
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
@@ -14,7 +17,7 @@ final themeData = ThemeData(
   appBarTheme: AppBarTheme(
     backgroundColor: Colors.transparent,
     elevation: 0,
-    iconTheme: const IconThemeData(color: Colors.deepPurple),
+    iconTheme: const IconThemeData(color: lighterPurple),
     titleTextStyle: GoogleFonts.actor(color: Colors.black, fontSize: 25),
     centerTitle: true,
   ),
@@ -23,7 +26,7 @@ final themeData = ThemeData(
     headlineMedium: GoogleFonts.actor(color: Colors.black87),
     headlineSmall: GoogleFonts.aBeeZee(color: Colors.black.withOpacity(0.6)),
     titleLarge: GoogleFonts.aBeeZee(
-      color: Colors.deepPurple,
+      color: lighterPurple,
       fontWeight: FontWeight.bold,
     ),
     bodyMedium: GoogleFonts.actor(fontSize: 16),

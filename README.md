@@ -38,6 +38,7 @@ It's a simple app with two screens that helps pacients with their fisiotherapy e
     <img src="https://github.com/danilloism/fisiotherapp/blob/master/screenshots/exercise_page.png" height="400" />
     <img src="https://github.com/danilloism/fisiotherapp/blob/master/screenshots/recording.gif" height="400" />
 </p>
+
 ## Specifications:
 The application has 2 screens.<br>
 The first is the welcome page, where the user can start the treatment.<br>
@@ -47,8 +48,7 @@ The second is the exercise page, in which the necessary steps are given to the u
 1. Clone this repository
 2. Run ```flutter run``` inside the project directory to build and run the app (you must have an iPhone or Android emulator running)
 
-# Colors:
-Purple: #5B3FFF<br>
-Lighter purple: #9E2D8C
-
-Designed and created by  <a href="https://github.com/Lorenalgm">Lorena</a> :)
+# Credits
+Design by <a href="https://github.com/Lorenalgm">Lorena</a>
+Code by <a href="https://github.com/danilloism">Danillo</a>
+:)

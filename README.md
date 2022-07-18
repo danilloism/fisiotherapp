@@ -32,6 +32,12 @@ Flutter
 ## About the app: 
 It's a simple app with two screens that helps pacients with their fisiotherapy exercises (only UI for now)
 
+## Screenshots:
+<p>
+    <img src="https://github.com/danilloism/fisiotherapp/blob/master/screenshots/initial_page.png" alt="Initital page with a welcome message and a button to start the exercise." height="400" />
+    <img src="https://github.com/danilloism/fisiotherapp/blob/master/screenshots/exercise_page.png" height="400" />
+    <img src="https://github.com/danilloism/fisiotherapp/blob/master/screenshots/recording.gif" height="400" />
+</p>
 ## Specifications:
 The application has 2 screens.<br>
 The first is the welcome page, where the user can start the treatment.<br>

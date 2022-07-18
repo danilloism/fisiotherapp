@@ -50,5 +50,5 @@ The second is the exercise page, in which the necessary steps are given to the u
 
 # Credits
 Design by <a href="https://github.com/Lorenalgm">Lorena</a><br>
-Code by <a href="https://github.com/danilloism">Danillo</a>
+Code by <a href="https://github.com/danilloism">Danillo</a><br>
 :)
